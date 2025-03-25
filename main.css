@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Overpass+Mono");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background-color: #FF1053;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body::selection {
+  background: #FF1053; }
+
+body::-moz-selection {
+  background: #FF1053; }
+
+a {
+  color: #3454D1;
+  text-decoration: none; }
+
+a:hover {
+  border-bottom: 3px solid #3454D1;
+  cursor: pointer; }
+
+strong {
+  font-weight: 700; }
+
+header {
+  height: 100vh;
+  min-height: 350px;
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1; }
+  header .header__container {
+    width: 70%;
+    margin: auto; }
+    header .header__container h1 {
+      display: block;
+      font-weight: 700;
+      font-size: 3em;
+      color: #F4F7F5; }
+      header .header__container h1 span.wrap {
+        display: block;
+        font-weight: 300;
+        font-size: 0.45em;
+        color: #A7A2A9; }
+    header .header__container .header__welcomes {
+      opacity: 0.5;
+      color: #575A5E;
+      margin-top: 50px;
+      margin-bottom: -80px;
+      font-family: "Overpass Mono", monospace;
+      line-height: 0.7em; }
+      header .header__container .header__welcomes span {
+        display: block;
+        margin-bottom: 10px; }
+        header .header__container .header__welcomes span a:hover {
+          border: 0;
+          color: #5e77da; }
+  header .header__card {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-family: "Overpass Mono", monospace;
+    text-transform: lowercase;
+    color: #575A5E;
+    opacity: 0.5; }
+
+.content {
+  min-height: 100vh;
+  padding: 50px 0 0;
+  background-color: #F4F7F5;
+  color: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .content .content__wrap {
+    width: 70%;
+    margin: auto; }
+
+    /* Footer Styles */
+.site-footer {
+  background-color: #222222;
+  padding: 1.5rem 0;
+  font-family: "Overpass Mono", monospace;
+}
+
+.footer-content {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-copyright {
+  color: #A7A2A9;
+  font-size: 0.85em;
+}
+
+.footer-right {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  fill: #A7A2A9;
+  transition: fill 0.2s ease;
+}
+
+.footer-right a:hover .footer-icon {
+  fill: #fff;
+}
+
+pre {
+  font-family: "Overpass Mono", monospace;
+  font-size: 12px; }
+
+/*# sourceMappingURL=main.css.map */
